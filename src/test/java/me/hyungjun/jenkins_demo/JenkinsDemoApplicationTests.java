@@ -52,7 +52,7 @@ class JenkinsDemoApplicationTests {
         Account account2 = accountService.enrollAccount(enrollForm2);
 
 
-        Assertions.assertEquals(2, accountRepository.findAll().size());
+        Assertions.assertEquals(1, accountRepository.findAll().size());
 
     }
 
